@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @RequestMapping("/")
     public String home(){
-        return "Hello,这是master分支的demo!增加了feature分支！";
+        return "Hello,这是master分支的demo!增加了feature分支！feature分支第二次提交";
     }
 }
